@@ -1,0 +1,6 @@
+#change sort 
+def change_sort(n):
+  for i in range(n-1, -1):
+    for j in range(i-2):
+      x[j] = x[j+1]
+      x[j+1] = x[j]
